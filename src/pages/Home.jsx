@@ -5,11 +5,13 @@ import Footer from "../components/Footer";
 
 import { Link } from "react-router-dom";
 
-import first from "../assets/First.jpg";
-import second from "../assets/Second.jpg";
-import third from "../assets/Third.jpg";
-import royalvilla from "../assets/royalvilla.jpeg";
-
+import first from "../assets/Bg.jpeg";
+import second from "../assets/card1.jpeg";
+import third from "../assets/Card2.jpeg";
+import royalvilla from "../assets/Card3.jpeg";
+import card4 from "../assets/Card3.jpeg";
+import card5 from "../assets/Card4.jpeg";
+import card6 from "../assets/Card5.jpeg";
 import {
   FaHome,
   FaUsers,
@@ -47,7 +49,7 @@ const properties = [
     title: "Royal Penthouse",
     location: "Bangalore",
     price: "₹5.5 Cr",
-    image: third,
+    image: card4,
   },
 
   {
@@ -55,7 +57,7 @@ const properties = [
     title: "Luxury Farmhouse",
     location: "Punjab",
     price: "₹4.2 Cr",
-    image: first,
+    image:card5,
   },
 
   {
@@ -63,7 +65,7 @@ const properties = [
     title: "Modern Cottage",
     location: "Manali",
     price: "₹1.8 Cr",
-    image: second,
+    image: card6,
   },
 ];
 

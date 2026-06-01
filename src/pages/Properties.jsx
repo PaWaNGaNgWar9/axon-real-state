@@ -11,8 +11,11 @@ import card3 from "../assets/Card3.jpeg";
 import card4 from "../assets/Card4.jpeg";
 import card5 from "../assets/Card5.jpeg";
 import card6 from "../assets/Card6.jpeg";
-import royalvilla from "../assets/royalvilla.jpeg";
-import hero from "../assets/Hero.jpeg";
+import card7 from "../assets/royalvilla.jpeg";
+import card8 from "../assets/Hero.jpeg";
+import card9 from "../assets/First.jpg";
+import card10 from "../assets/Second.jpg";
+import card11 from "../assets/Third.jpg";
 
 import {
   FaMapMarkerAlt,
@@ -109,7 +112,51 @@ const propertiesData = [
     baths: 8,
     area: "15000 Sq.ft",
     type: "Mansion",
-    image: royalvilla,
+    image:card7,
+  },
+  {
+    id: 9,
+    title: "Royal Mansion",
+    location: "Jaipur",
+    price: "₹9 Cr",
+    beds: 10,
+    baths: 8,
+    area: "15000 Sq.ft",
+    type: "Mansion",
+    image:card8,
+  },
+  {
+    id: 10,
+    title: "Royal Mansion",
+    location: "Jaipur",
+    price: "₹9 Cr",
+    beds: 10,
+    baths: 8,
+    area: "15000 Sq.ft",
+    type: "Mansion",
+    image: card9,
+  },
+  {
+    id: 11,
+    title: "Royal Mansion",
+    location: "Jaipur",
+    price: "₹9 Cr",
+    beds: 10,
+    baths: 8,
+    area: "15000 Sq.ft",
+    type: "Mansion",
+    image: card10,
+  },
+  {
+    id: 12,
+    title: "Royal Mansion",
+    location: "Jaipur",
+    price: "₹9 Cr",
+    beds: 10,
+    baths: 8,
+    area: "15000 Sq.ft",
+    type: "Mansion",
+    image: card11,
   },
 ];
 
@@ -130,7 +177,7 @@ const Properties = () => {
         {/* Hero Section */}
         <div className="relative h-[70vh] flex items-center justify-center text-center px-6">
           <img
-            src={hero}
+            src={card8}
             alt="hero"
             className="absolute inset-0 object-cover w-full h-full opacity-40"
           />
